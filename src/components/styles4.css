@@ -1,0 +1,35 @@
+/* styles.css */
+body{
+  background-color: rgb(198, 238, 154);
+}
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
