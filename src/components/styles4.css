@@ -32,4 +32,16 @@ body{
   .next {
     right: 0;
   }
+
+@media only screen and (max-width: 480px) {
+  .slider {
+    width: 95%;
+  }
+
+  .prev,
+  .next {
+    font-size: 16px;
+    padding: 6px;
+  }
+}
   
